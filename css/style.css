@@ -1,0 +1,173 @@
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+#home{
+    background-image: url(../img/Party.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 660px;
+}
+#home::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+#home .content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+#home .content sup {
+    position: absolute;
+    top: 35px;
+    left: 1px;
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+#singers{
+    margin: 5rem auto;
+    
+}
+
+#singers a{
+    color: white;
+}
+
+#singers div{
+    background-color: #E68285;
+}
+
+#singers div p{
+    background-color: #CCCCCC;
+    color:rgb(51, 51, 51) ;
+}
+
+#navigation{
+    background-color: #414658;
+    width: 15%;
+z-index: 9999;
+left: -100%;
+
+}
+
+#navigation li{
+    
+    font-size: 25px;
+    line-height:35.71px;
+padding-block: 18px;
+}
+
+#myNav a{
+    color: white;
+    transition: color 0.3s;
+}
+
+#myNav a:hover{
+    color:
+rgba(214, 46, 51, 0.4);
+}
+
+#navigation .fa-xmark{
+position: absolute;
+right: 15%;
+top: 5%;
+transition: color 0.3s;
+}
+
+#navigation .fa-xmark:hover{
+    color:
+rgba(214, 46, 51, 0.4);
+}
+
+
+#home #open{
+    position: absolute;
+    z-index: 2;
+    left: 15px;
+}
+
+#open i{
+    margin-right: 10px;
+}
+
+
+.icons i{
+    border: 1px solid  rgb(119, 119, 119);
+    padding: 10px;
+    transition: background-color 0.3s,color 0.3s;
+}
+
+.icons a{
+    color: rgb(119, 119, 119);
+}
+
+.icons i:hover{
+    background-color:#D62E33;
+    color: white;
+}
+
+textarea{
+    min-width: 75%;
+}
+
+.btn{
+    color: white;
+    background-color: #D62E33;
+    transition: color 0.3s;
+}
+
+.btn:hover{
+    color: white;
+}
+
+#duration{
+    background-image: url("../img/invitation-2508607__340.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin:  0 auto 3rem;
+    height: 300px;
+}
+#duration::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+
+
+#duration .d-flex div{
+    color: white;
+    border: 1px white solid;
+    font-size: 24px;
+    width: 32% !important;
+    height: 150px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea {
+    height: 200px;
+    resize: vertical;
+}
